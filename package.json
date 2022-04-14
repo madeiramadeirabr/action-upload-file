@@ -1,0 +1,23 @@
+{
+  "name": "action-upload-file",
+  "version": "3.0.0",
+  "description": "This action creates change history between project commits",
+  "main": "index.js",
+  "keywords": [],
+  "author": "archaic10",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "@octokit/core": "^3.5.1",
+    "base-64": "^1.0.0",
+    "fs": "^0.0.1-security"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "changelog-v7": "auto-changelog -p"
+  },
+  "devDependencies": {
+    "auto-changelog": "^2.4.0"
+  }
+}
