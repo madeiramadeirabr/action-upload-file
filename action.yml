@@ -1,0 +1,18 @@
+name: 'Upload file'
+description: 'This action sends the file to the repository, if the uploaded file exists the action will update the file, if it does not exist the action will create the file'
+inputs:
+  github-token:
+    description: 'Personal access token to access the GitHub API'
+    required: true
+  file:
+    description: 'file you want to send'
+    required: true
+  branch:
+    description: 'set the branch want'
+    required: false
+outputs:
+  success:
+    description: 'message success'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
