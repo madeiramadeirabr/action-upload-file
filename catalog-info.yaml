@@ -2,11 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: action-upload-file
-  description: |
-    Github Action que gera (ou atualiza) um arquivo em tempo de execução para o repositório.
+  description: Github Action que gera (ou atualiza) um arquivo em tempo de execução para o repositório.
   annotations:
     github.com/project-slug: madeiramadeirabr/action-upload-file
     sonarqube.org/project-key: madeiramadeirabr/action-upload-file
+    backstage.io/techdocs-ref: dir:.
   tags:
   - javascript
   - github-action
